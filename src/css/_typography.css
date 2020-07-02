@@ -1,9 +1,13 @@
+.header-main {
+    font-family: var(--crimson_text);
+}
+
 .header-main h1 {
-    font-size: 4rem;
-    margin: 2rem 0;
+    font-size: 4.5rem;
+    margin: 0;
 }
 
 .header-main h5 {
     font-size: 2.5rem;
-    margin: 1rem 0;
+    margin: 0;
 }
