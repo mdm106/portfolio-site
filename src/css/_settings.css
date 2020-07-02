@@ -10,3 +10,7 @@
 body {
     background-color: rgb(193,211,213);
 }
+
+* {
+    box-sizing: border-box;
+}
