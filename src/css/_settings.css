@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --crimson_text: 'Crimson Text', serif;
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+
 body {
-    background-color: #bfded7;
+    background-color: rgb(193,211,213);
 }
