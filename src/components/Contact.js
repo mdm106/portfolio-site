@@ -4,23 +4,39 @@ import Menu from "./Menu";
 import MenuItem from "./MenuItem";
 
 const Contact = () => (
-    <Menu>
-        <MenuItem classID="no-highlight"
-                  content="Home"
-                  link="/" />
-        <MenuItem classID="no-highlight"
-                  content="About"
-                  link="/about" />
-        <MenuItem classID="no-highlight"
-                  content="Skills"
-                  link="/skills" /> 
-        <MenuItem classID="no-highlight"
-                  content="Projects"
-                  link="/projects" />  
-        <MenuItem classID="highlight"
-                  content="Contact"
-                  link="/contact" />   
-    </Menu>
+    <>
+        <Menu>
+            <MenuItem classID="no-highlight"
+                    content="Home"
+                    link="/" />
+            <MenuItem classID="no-highlight"
+                    content="About"
+                    link="/about" />
+            <MenuItem classID="no-highlight"
+                    content="Skills"
+                    link="/skills" /> 
+            <MenuItem classID="no-highlight"
+                    content="Projects"
+                    link="/projects" />  
+            <MenuItem classID="highlight"
+                    content="Contact"
+                    link="/contact" />   
+        </Menu>
+        <div className="container contact-wrapper">
+            <span className="email-icon">
+                <i className="far fa-envelope fa-3x"></i>
+            </span>
+            <p className="contact-text">mads.mcmahon@gmail.com</p>  
+            <span className="social-links">
+                <a href="https://www.linkedin.com/in/maddy-mcmahon-5070ba1b1/">
+                    <i className="fab fa-linkedin fa-3x"></i>
+                </a>
+                <a href="https://github.com/mdm106">
+                    <i className="fab fa-github fa-3x"></i>
+                </a>
+            </span>
+        </div>
+    </>
 );
 
 export default Contact;
