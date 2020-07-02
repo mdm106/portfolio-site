@@ -2,3 +2,16 @@
     width: 66vw;
     margin: 3rem 18vw 2rem 16vw;
 }
+
+.page-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-text {
+    padding-left: 2rem;
+}
+
+.main-text {
+    flex-basis: 66%;
+}

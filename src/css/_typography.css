@@ -16,3 +16,10 @@
     font-family: var(--montserrat);
     font-size: 1.25rem;
 }
+
+.main-text {
+    font-family: var(--montserrat);
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
