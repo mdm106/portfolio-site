@@ -10,6 +10,20 @@
     }
 }
 
+@media screen and (max-width: 770px) {
+    .container {
+        width: 72vw;
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 88vw;
+        margin: 2rem auto;
+    }
+}
+
 .page-content {
     position: relative;
 }

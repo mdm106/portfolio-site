@@ -7,9 +7,45 @@
     margin: 0;
 }
 
+@media screen and (max-width: 770px) {
+    .header-main h1 {
+        font-size: 3.2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-main h1 {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header-main h1 {
+        font-size: 2.1rem;
+    }
+}
+
 .header-main h5 {
     font-size: 2.5rem;
     margin: 0;
+}
+
+@media screen and (max-width: 770px) {
+    .header-main h5 {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-main h5 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header-main h5 {
+        font-size: 1.6rem;
+    }
 }
 
 .contact-text {
