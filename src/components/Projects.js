@@ -1,7 +1,7 @@
 import React from "react";
 
-import Menu from "./Menu";
-import MenuItem from "./MenuItem";
+import Menu from "./Menu/Menu";
+import MenuItem from "./Menu/MenuItem";
 
 const Projects = () => (
     <Menu>
