@@ -23,10 +23,5 @@
     line-height: 1.3rem;
 }
 
-@media screen and (min-width: 1500px) {
-    .main-text {
-        font-size: 1.2rem;
-        line-height: 1.5rem;
-    }
-}
+
 
