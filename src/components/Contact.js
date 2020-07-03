@@ -24,7 +24,9 @@ const Contact = () => (
         </Menu>
         <div className="container contact-wrapper">
             <span className="email-icon">
+                <a href="mailto:mads.mcmahon@gmail.com">
                 <i className="far fa-envelope fa-3x"></i>
+                </a>
             </span>
             <p className="contact-text">mads.mcmahon@gmail.com</p>  
             <span className="social-links">
