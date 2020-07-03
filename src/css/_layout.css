@@ -3,15 +3,26 @@
     margin: 3rem 18vw 2rem 16vw;
 }
 
+@media screen and (min-width: 1500px) {
+    .container {
+        width: 55vw;
+        margin: 3rem 24vw 2rem 21vw;
+    }
+}
+
 .page-content {
-    display: flex;
-    flex-direction: row;
+    position: relative;
 }
 
-.main-text {
-    padding-left: 2rem;
+.main-image {
+    position: relative;
+    overflow: hidden;
 }
 
-.main-text {
-    flex-basis: 66%;
+.main-image {
+    width: 33%;
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
+
