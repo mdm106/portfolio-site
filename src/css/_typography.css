@@ -66,5 +66,17 @@
     text-align: center;
 }
 
+.project-skills {
+    text-align: center;
+}
 
+.project-title {
+    font-size: 1.8rem;
+    font-family: var(--crimson_text);
+    margin: 1.5rem 0;
+}
+
+.project-text {
+    margin: 0.75em 0;
+}
 

@@ -1,0 +1,27 @@
+.project-image {
+    width: 55%;
+    align-self: center;
+}
+
+.project-article {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-title {
+    margin: 0 0 1.5rem;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fa-2x {
+    padding: 1rem;
+}
+
+.project-article a {
+    color: black;
+}
