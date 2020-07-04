@@ -1,6 +1,6 @@
 import React from "react";
 
-const Menu = ({ children }) => (
+const Nav = ({ children }) => (
     <div className="container">
         <div className="menu-dropdown">
             {children}
@@ -8,4 +8,4 @@ const Menu = ({ children }) => (
     </div>
 );
 
-export default Menu;
+export default Nav;

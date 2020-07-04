@@ -1,26 +1,26 @@
 import React from "react";
 
-import Menu from "./Menu/Menu";
-import MenuItem from "./Menu/MenuItem";
+import Nav from "./Nav/Nav";
+import NavItem from "./Nav/NavItem";
 
 const Projects = () => (
-    <Menu>
-        <MenuItem classID="no-highlight"
+    <Nav>
+        <NavItem classID="no-highlight"
                   content="Home"
                   link="/" />
-        <MenuItem classID="no-highlight"
+        <NavItem classID="no-highlight"
                   content="About"
                   link="/about" />
-        <MenuItem classID="no-highlight"
+        <NavItem classID="no-highlight"
                   content="Skills"
                   link="/skills" /> 
-        <MenuItem classID="highlight"
+        <NavItem classID="highlight"
                   content="Projects"
                   link="/projects" />  
-        <MenuItem classID="no-highlight"
+        <NavItem classID="no-highlight"
                   content="Contact"
                   link="/contact" />   
-    </Menu>
+    </Nav>
 );
 
 export default Projects;

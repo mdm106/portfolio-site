@@ -1,29 +1,29 @@
 import React from "react";
 
-import Menu from "./Menu/Menu";
-import MenuItem from "./Menu/MenuItem";
+import Nav from "./Nav/Nav";
+import NavItem from "./Nav/NavItem";
 
 import headshot from "../images/Maddy-small.jpg";
 
 const About = () => (
     <>
-    <Menu>
-        <MenuItem classID="no-highlight"
+    <Nav>
+        <NavItem classID="no-highlight"
                   content="Home"
                   link="/" />
-        <MenuItem classID="highlight"
+        <NavItem classID="highlight"
                   content="About"
                   link="/about" />
-        <MenuItem classID="no-highlight"
+        <NavItem classID="no-highlight"
                   content="Skills"
                   link="/skills" /> 
-        <MenuItem classID="no-highlight"
+        <NavItem classID="no-highlight"
                   content="Projects"
                   link="/projects" />  
-        <MenuItem classID="no-highlight"
+        <NavItem classID="no-highlight"
                   content="Contact"
                   link="/contact" />   
-    </Menu>
+    </Nav>
     <div className="container page-content">
         <img className="main-image" src={headshot} alt="Headshot of Maddy McMahon"></img>
         <section className="main-text">
