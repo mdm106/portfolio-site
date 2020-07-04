@@ -16,6 +16,7 @@ const StyledUl = styled.ul`
     width: 55vw;
     transition: transform 0.3s ease-in-out;
     margin: 0;
+    z-index: 20;
 
     li {
         color: black;
