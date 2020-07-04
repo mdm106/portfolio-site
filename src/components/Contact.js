@@ -1,27 +1,37 @@
 import React from "react";
+import Media from 'react-media';
 
 import Nav from "./Nav/Nav";
 import NavItem from "./Nav/NavItem";
+import Burger from './Nav/Burger';
 
 const Contact = () => (
     <>
-        <Nav>
-            <NavItem classID="no-highlight"
-                    content="Home"
-                    link="/" />
-            <NavItem classID="no-highlight"
-                    content="About"
-                    link="/about" />
-            <NavItem classID="no-highlight"
-                    content="Skills"
-                    link="/skills" /> 
-            <NavItem classID="no-highlight"
-                    content="Projects"
-                    link="/projects" />  
-            <NavItem classID="highlight"
-                    content="Contact"
-                    link="/contact" />   
-        </Nav>
+        <Media queries={{ mobile: { maxWidth: 699 } }}>
+            {matches => 
+                matches.mobile ? (
+                    <Burger />
+                ) : (
+                    <Nav>
+                        <NavItem classID="no-highlight"
+                                content="Home"
+                                link="/" />
+                        <NavItem classID="no-highlight"
+                                content="About"
+                                link="/about" />
+                        <NavItem classID="no-highlight"
+                                content="Skills"
+                                link="/skills" /> 
+                        <NavItem classID="no-highlight"
+                                content="Projects"
+                                link="/projects" />  
+                        <NavItem classID="highlight"
+                                content="Contact"
+                                link="/contact" />   
+                    </Nav>
+                    )
+                }
+        </Media>
         <div className="container contact-wrapper">
             <span className="email-icon">
                 <a href="mailto:mads.mcmahon@gmail.com">
