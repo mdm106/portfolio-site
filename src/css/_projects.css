@@ -3,6 +3,12 @@
     align-self: center;
 }
 
+@media screen and (max-width: 699px) {
+    .project-image {
+        width: 65%;
+    }
+}
+
 .project-article {
     display: flex;
     flex-direction: column;
