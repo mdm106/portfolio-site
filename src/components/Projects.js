@@ -8,6 +8,8 @@ import Burger from './Nav/Burger';
 import ProjectArticle from './ProjectArticle';
 import football from '../images/football-sized.jpeg';
 import olympics from '../images/olympics.png';
+import photography from '../images/photography.png';
+import portfolio from '../images/portfolio.jpeg';
 
 const Projects = () => (
     <div>
@@ -53,6 +55,23 @@ const Projects = () => (
             githubAvail={true}
             projectLink="https://techmilton.github.io/Lockdown-Olympics/#/"
             linkAvail={true} />
+        <ProjectArticle 
+            title="Photography site"
+            image={photography}
+            skills="HTML / CSS"
+            para1="This site was made in the first two weeks of the DevelopMe bootcamp. It was produced in HTML and CSS based on a provided design. The site is responsive to changes in screen size. I produced the site prior to learning Git. Therefore, the git repository was initialised after project completion, and there are therefore few commits."
+            repoName="photography-site"
+            githubAvail={true}
+            projectLink="https://mdm106.github.io/photography-site/"
+            linkAvail={true} />
+        <ProjectArticle 
+            title="Portfolio Site - First version"
+            image={portfolio}
+            skills="HTML / SCSS / Javascript"
+            para1="This was a first version of my portfolio site. It was produced in HTML and SCSS. Although I ultimately was not happy with the design and feel of the site, it game me good experience in using SCSS, including the use of mixins and extensions."
+            repoName="Personal-Portfolio"
+            githubAvail={true}
+            linkAvail={false} />
     </div> 
 );
 
