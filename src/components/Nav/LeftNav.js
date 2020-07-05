@@ -35,27 +35,22 @@ const LeftNav = ({ open }) => {
     return (
         <StyledUl open={open}>
             <li>
-                <Link to={"/"}>
+                <Link to={"/"} replace>
                 <h6>Home</h6>
                 </Link>
             </li>
             <li>
-                <Link to={"/about"}>
-                <h6>About</h6>
-                </Link>
-            </li>
-            <li>
-                <Link to={"/skills"}>
+                <Link to={"/skills"} replace>
                 <h6>Skills</h6>
                 </Link>
             </li>
             <li>
-                <Link to={"/projects"}>
+                <Link to={"/projects"} replace>
                 <h6>Projects</h6>
                 </Link>
             </li>
             <li>
-                <Link to={"/contact"}>
+                <Link to={"/contact"} replace>
                 <h6>Contact</h6>
                 </Link>
             </li>

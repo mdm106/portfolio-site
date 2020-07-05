@@ -7,12 +7,12 @@
 .menu-dropdown a {
     text-decoration: none;
     color: black;
-    width: 10vw;
+    width: 11vw;
 }
 
 @media screen and (min-width: 1500px) {
     .menu-dropdown a{
-        width: 8vw;
+        width: 9vw;
     }
 }
 

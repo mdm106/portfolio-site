@@ -16,9 +16,6 @@ const Skills = () => (
                             <NavItem classID="no-highlight"
                                     content="Home"
                                     link="/" />
-                            <NavItem classID="no-highlight"
-                                    content="About"
-                                    link="/about" />
                             <NavItem classID="highlight"
                                     content="Skills"
                                     link="/skills" /> 

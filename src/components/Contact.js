@@ -17,9 +17,6 @@ const Contact = () => (
                                 content="Home"
                                 link="/" />
                         <NavItem classID="no-highlight"
-                                content="About"
-                                link="/about" />
-                        <NavItem classID="no-highlight"
                                 content="Skills"
                                 link="/skills" /> 
                         <NavItem classID="no-highlight"
