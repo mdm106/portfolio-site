@@ -7,7 +7,7 @@ import Burger from './Nav/Burger';
 
 import headshot from "../images/Maddy-small.jpg";
 
-const About = () => (
+const Home = () => (
     <>
         <Media queries={{ mobile: { maxWidth: 699 } }}>
                 {matches => 
@@ -16,7 +16,7 @@ const About = () => (
                     ) : (
                         <Nav>
                             <NavItem classID="highlight"
-                                    content="About"
+                                    content="Home"
                                     link="/" />
                             <NavItem classID="no-highlight"
                                     content="Skills"
@@ -45,4 +45,4 @@ const About = () => (
     </>
 );
 
-export default About;
+export default Home;
