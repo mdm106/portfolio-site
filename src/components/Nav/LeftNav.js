@@ -36,11 +36,6 @@ const LeftNav = ({ open }) => {
         <StyledUl open={open}>
             <li>
                 <Link to={"/"}>
-                <h6>Home</h6>
-                </Link>
-            </li>
-            <li>
-                <Link to={"/about"}>
                 <h6>About</h6>
                 </Link>
             </li>

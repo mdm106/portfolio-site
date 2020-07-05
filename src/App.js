@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 
 import Header from "./components/Header";
-import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -18,8 +17,7 @@ function App() {
     <Router>
       <Header />
       <Switch>
-        <Home exact path="/" />
-        <About exact path="/about"/>
+        <About exact path="/"/>
         <Skills exact path="/skills" />
         <Projects exact path="/projects" />
         <Contact exact path="/contact" />
