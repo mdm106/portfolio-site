@@ -80,7 +80,7 @@ const Projects = () => (
             title="Portfolio Site - First version"
             image={portfolio}
             skills="HTML / SCSS"
-            para1="This was a first version of my portfolio site. It was produced in HTML and SCSS. Although I ultimately was not happy with the design and feel of the site, it game me good experience in using SCSS, including the use of mixins and extensions."
+            para1="This was a first version of my portfolio site. It was produced in HTML and SCSS. Although I ultimately was not happy with the design and feel of the site, it gave me good experience in using SCSS, including the use of mixins and extensions."
             repoName="Personal-Portfolio"
             githubAvail={true}
             linkAvail={false} />
