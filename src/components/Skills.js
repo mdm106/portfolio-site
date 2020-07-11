@@ -46,7 +46,7 @@ const Skills = () => (
                 
                 <p>Git / GitHub / Gulp / npm / Composer</p>
                     
-                <p>PHP / Laravel / MySQL / Guzzle HTTP</p>
+                <p>PHP / Laravel / MySQL</p>
                 
                 <p>SQL / R</p>
                 </section>
