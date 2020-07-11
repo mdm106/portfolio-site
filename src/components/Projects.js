@@ -10,6 +10,7 @@ import football from '../images/football.jpg';
 import olympics from '../images/olympics.jpg';
 import photography from '../images/photography.jpg';
 import portfolio from '../images/portfolio.jpg';
+import vet from '../images/vet-practice.jpg';
 
 const Projects = () => (
     <div>
@@ -56,7 +57,7 @@ const Projects = () => (
             projectLink="https://techmilton.github.io/Lockdown-Olympics/#/"
             linkAvail={true} />
         <ProjectArticle 
-            title="Photography site"
+            title="Photography Site"
             image={photography}
             skills="HTML / CSS"
             para1="This site was made in the first two weeks of the DevelopMe bootcamp. It was produced in HTML and CSS based on a provided design. The site is responsive to changes in screen size. I produced the site prior to learning Git. Therefore, the git repository was initialised after project completion, and there are therefore few commits."
@@ -70,6 +71,14 @@ const Projects = () => (
             skills="HTML / SCSS"
             para1="This was a first version of my portfolio site. It was produced in HTML and SCSS. Although I ultimately was not happy with the design and feel of the site, it game me good experience in using SCSS, including the use of mixins and extensions."
             repoName="Personal-Portfolio"
+            githubAvail={true}
+            linkAvail={false} />
+        <ProjectArticle 
+            title="Veterinary Practice App"
+            image={vet}
+            skills="PHP / Laravel / APIs"
+            para1="This project was completed in weeks 7 and 8 of the DevelopMe bootcamp. It was a site for a veterinary practice created using Laravel, with a MySQL database and using PHP blade views. The project also involved producing a RESTful API."
+            repoName="week7-vet-practice"
             githubAvail={true}
             linkAvail={false} />
     </div> 
