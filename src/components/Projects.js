@@ -6,10 +6,10 @@ import NavItem from "./Nav/NavItem";
 import Burger from './Nav/Burger';
 
 import ProjectArticle from './ProjectArticle';
-import football from '../images/football-sized.jpeg';
-import olympics from '../images/olympics.png';
-import photography from '../images/photography.png';
-import portfolio from '../images/portfolio.jpeg';
+import football from '../images/football.jpg';
+import olympics from '../images/olympics.jpg';
+import photography from '../images/photography.jpg';
+import portfolio from '../images/portfolio.jpg';
 
 const Projects = () => (
     <div>
