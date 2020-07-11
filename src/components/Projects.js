@@ -36,6 +36,7 @@ const Projects = () => (
                    )
                 }
         </Media>
+        <div className="container">
         <ProjectArticle 
             title="Team Selector App"
             image={football}
@@ -81,6 +82,7 @@ const Projects = () => (
             repoName="week7-vet-practice"
             githubAvail={true}
             linkAvail={false} />
+        </div>
     </div> 
 );
 

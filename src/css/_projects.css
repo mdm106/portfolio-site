@@ -12,6 +12,7 @@
 .project-article {
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
 }
 
 .project-title {
