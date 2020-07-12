@@ -71,7 +71,7 @@ const Projects = () => (
             title="Hat Game App"
             image={hatgame}
             skills="React / Redux / Laravel / Heroku / Git / Pre-built components"
-            para1="This app is a game where players in two teams must guess the words based on descriptions from teammates. The app provides words in four categories, that are retrieved from an API, and the team scores are also recorded using the API. The app includes a 45 second timer and an onscreen message and air horn sound at the end of the round. The sound is played using the use-sound React Hook. A table of previous game results recorded and retrieved from the API is also provided. The app uses React Bootstrap components. The back-end is deployed using Heroku and the front-end through github pages."
+            para1="This app is a game where players in two teams must guess the words based on descriptions from teammates. The app provides words in four categories, that are retrieved from an API, and the team scores are also recorded using the API. The app includes a 45 second timer and an onscreen message and air horn sound at the end of the round. The sound is played using the use-sound React Hook. A table of previous game results recorded and retrieved from the API is also provided. The app uses React Bootstrap components. The back-end is deployed using Heroku and the front-end through GitHub pages."
             repoName="hat-game-frontend"
             githubAvail={true}
             projectLink="https://mdm106.github.io/hat-game-frontend/#/"
