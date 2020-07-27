@@ -12,7 +12,7 @@ import photography from '../images/photography.jpg';
 import portfolio from '../images/portfolio.jpg';
 import vet from '../images/vet-practice.jpg';
 import hatgame from '../images/hatgame.jpg';
-import millionaire from "../images/millionaire.png"
+import millionaire from "../images/millionaire.jpg"
 
 const Projects = () => (
     <div>
