@@ -12,6 +12,7 @@ import photography from '../images/photography.jpg';
 import portfolio from '../images/portfolio.jpg';
 import vet from '../images/vet-practice.jpg';
 import hatgame from '../images/hatgame.jpg';
+import millionaire from "../images/millionaire.png"
 
 const Projects = () => (
     <div>
@@ -47,6 +48,16 @@ const Projects = () => (
             repoName="team-selector-frontend"
             githubAvail={true}
             projectLink="https://mdm106.github.io/team-selector-frontend/#/"
+            linkAvail={true} />
+        <ProjectArticle 
+            title="Who wants to be a Web Developer App"
+            image={millionaire}
+            skills="PHP / Laravel / APIs / React / Redux / Responsive Design / Pair Programming"
+            para1="This project is a web development quiz based on the 'Who wants to be a Millionaire' game show. I completed this project alongside another developer, using pair programming. It was a great experience to do pair programming, and I learnt a lot."
+            para2="The back-end was built using Laravel, and the front-end in React, using Redux. We used a pre-built React component to incorporate sounds into the app. The responsive design utilised CSS grids. The app makes GET requests to the API to retrieve questions. It also makes POST requests to record completed games, and GET requests to retrieve game statistics."
+            repoName="whoWantsToBeAWebDeveloperFrontEnd"
+            githubAvail={true}
+            projectLink="https://avi-cohen-nehemia.github.io/whoWantsToBeAWebDeveloperFrontEnd/#/"
             linkAvail={true} />
         <ProjectArticle 
             title="Lockdown Olympics App"
