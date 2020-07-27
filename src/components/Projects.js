@@ -57,7 +57,7 @@ const Projects = () => (
             para2="The back-end was built using Laravel, and the front-end in React, using Redux. We used a pre-built React component to incorporate sounds into the app. The responsive design utilised CSS grids. The app makes GET requests to the API to retrieve questions. It also makes POST requests to record completed games, and GET requests to retrieve game statistics."
             repoName="whoWantsToBeAWebDeveloperFrontEnd"
             githubAvail={true}
-            projectLink="https://avi-cohen-nehemia.github.io/whoWantsToBeAWebDeveloperFrontEnd/#/game"
+            projectLink="https://avi-cohen-nehemia.github.io/whoWantsToBeAWebDeveloperFrontEnd/#/"
             linkAvail={true} />
         <ProjectArticle 
             title="Lockdown Olympics App"
