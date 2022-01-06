@@ -32,11 +32,11 @@ const Skills = () => (
         <div className="container page-content">
             <div className="icon-wrapper">
         
-                    <i className="fas fa-sitemap fa-5x"></i>
+                    <i className="fas fa-sitemap fa-5x" aria-hidden="true"></i>
          
-                    <i className="fas fa-laptop-code fa-5x"></i>
+                    <i className="fas fa-laptop-code fa-5x" arai-hidden="true"></i>
        
-                    <i className="far fa-keyboard fa-5x"></i>
+                    <i className="far fa-keyboard fa-5x" aria-hidden="true"></i>
             </div>
                 <section className="main-text-skills">
                 <p>HTML / CSS / SASS / Responsive design / Bootstrap</p>
