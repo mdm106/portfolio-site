@@ -32,21 +32,22 @@ const Skills = () => (
         <div className="container page-content">
             <div className="icon-wrapper">
         
-                    <i className="fas fa-sitemap fa-5x"></i>
+                    <i className="fas fa-sitemap fa-5x" aria-hidden="true"></i>
          
-                    <i className="fas fa-laptop-code fa-5x"></i>
+                    <i className="fas fa-laptop-code fa-5x" arai-hidden="true"></i>
        
-                    <i className="far fa-keyboard fa-5x"></i>
+                    <i className="far fa-keyboard fa-5x" aria-hidden="true"></i>
             </div>
                 <section className="main-text-skills">
                 <p>HTML / CSS / SASS / Responsive design / Bootstrap</p>
-                <p>Javascript  / React / Redux / Axios</p>
+
+                <p>Ruby / Ruby on Rails / MySQL</p>
+
+                <p>Javascript  / Vue / jQuery / Angular</p>
                 
-                <p>Object Oriented programming / Functional programming</p>
+                <p>Object Oriented programming / Functional programming / MVC</p>
                 
-                <p>Git / GitHub / Gulp / npm / Composer</p>
-                    
-                <p>PHP / Laravel / MySQL</p>
+                <p>Git / GitHub / npm </p>
                 
                 <p>SQL / R</p>
                 </section>
