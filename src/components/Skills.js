@@ -39,17 +39,17 @@ const Skills = () => (
                     <i className="far fa-keyboard fa-5x" aria-hidden="true"></i>
             </div>
                 <section className="main-text-skills">
-                <p>HTML / CSS / SASS / Responsive design / Bootstrap</p>
+                <p>Ruby / Ruby on Rails / Minitest / MySQL</p>
 
-                <p>Ruby / Ruby on Rails / MySQL</p>
+                <p>HTML / CSS / SASS / Responsive design / Bootstrap / Accessibility Testing</p>
 
-                <p>Javascript  / Vue / jQuery / Angular</p>
+                <p>Javascript  / Vue.js / jQuery / Angular / Mobile applications</p>
                 
                 <p>Object Oriented programming / Functional programming / MVC</p>
                 
-                <p>Git / GitHub / npm </p>
-                
-                <p>SQL / R</p>
+                <p>Git / GitHub / npm / yarn </p>
+
+                <p>SQL</p>
                 </section>
         </div>
     </>
